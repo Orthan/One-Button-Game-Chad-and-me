@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BallMovement : MonoBehaviour
 {
+    public float _speed;
+
+
     void Start()
     {
         
@@ -11,6 +14,6 @@ public class BallMovement : MonoBehaviour
 
     void Update()
     {
-        
+        transform.Translate(Vector3.forward * _speed);
     }
 }
