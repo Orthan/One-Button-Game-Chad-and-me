@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TrapsContoller : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject[] traps; 
     void Start()
     {
         
