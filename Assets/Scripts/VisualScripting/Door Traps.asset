@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Door Traps
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":164.0,"y":200.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"key":{"$content":"Space","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":-203.0,"y":-130.0},"guid":"77c47630-1bbe-4118-b432-f2c5975232a1","$version":"A","$type":"Unity.VisualScripting.OnKeyboardInput","$id":"9"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Door
+      Controller","$type":"System.String"}},"position":{"x":-424.0,"y":173.0},"guid":"e0aede6d-d61e-42f0-b617-b63e7b6104c9","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"kind":"Scene","defaultValues":{"name":{"$content":"Door
+      Controller","$type":"System.String"}},"position":{"x":772.0,"y":-56.0},"guid":"96b1536a-d56a-43c5-a29c-e82e5d53b82e","$version":"A","$type":"Unity.VisualScripting.SetVariable"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":481.0,"y":-83.0},"guid":"0ea36c8e-ef18-4899-a1be-c42e93375067","$version":"A","$type":"Unity.VisualScripting.InvokeMember"},{"chainable":false,"member":{"name":"timeScale","parameterTypes":null,"targetType":"UnityEngine.Time","targetTypeName":"UnityEngine.Time","$version":"A"},"defaultValues":{"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":512.0,"y":112.0},"guid":"cdf34f6f-071c-44ad-82cc-e1bab88e0c3e","$version":"A","$type":"Unity.VisualScripting.SetMember"},{"defaultValues":{"index":{"$content":0,"$type":"System.Int32"}},"position":{"x":-80.0,"y":89.0},"guid":"37c31216-d42a-4aef-a5a2-443380d8fcf8","$version":"A","$type":"Unity.VisualScripting.GetListItem","$id":"22"},{"defaultValues":{},"position":{"x":147.0,"y":-96.0},"guid":"1fd7b278-5110-4906-a24e-8e9a4535adc9","$version":"A","$type":"Unity.VisualScripting.If","$id":"24"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Front
+      Door","$type":"System.String"}},"position":{"x":-237.0,"y":356.0},"guid":"37af8781-2a05-441e-9d24-973194013429","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Back
+      Door","$type":"System.String"}},"position":{"x":-38.0,"y":367.0},"guid":"5e98c39a-a99a-4d71-adee-e31e74fe2125","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"24"},"destinationKey":"enter","guid":"1571bea0-26a4-4ccc-83b7-ae0916d7f005","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"22"},"destinationKey":"list","guid":"6aaccede-ceff-413a-b8b5-21b7e18546ea","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
