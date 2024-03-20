@@ -16,4 +16,12 @@ public class BallMovement : MonoBehaviour
     {
         transform.Translate(Vector3.forward * _speed);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Trap"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
