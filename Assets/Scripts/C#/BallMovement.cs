@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class BallMovement : MonoBehaviour
 {
@@ -22,6 +24,7 @@ public class BallMovement : MonoBehaviour
         if (other.CompareTag("Trap"))
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("Game Over");
         }
     }
 }
