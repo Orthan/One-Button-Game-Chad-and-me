@@ -24,7 +24,13 @@ public class BallMovement : MonoBehaviour
         if (other.CompareTag("Trap"))
         {
             Destroy(gameObject);
-            SceneManager.LoadSceneAsync(3);
+            SceneManager.LoadScene("Game Over");
+        }
+
+        if (other.CompareTag("Trap2"))
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene("Game Over 2");
         }
     }
 }
