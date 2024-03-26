@@ -319,7 +319,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208045600}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 90.72}
+  m_LocalPosition: {x: 0, y: 0, z: 90.615}
   m_LocalScale: {x: 50, y: 0.05, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2214,12 +2214,12 @@ PrefabInstance:
     - target: {fileID: 1613468245219900610, guid: 9236188609cddec48b4a3fd42de9edb9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.725
+      value: 0.659
       objectReference: {fileID: 0}
     - target: {fileID: 1613468245219900610, guid: 9236188609cddec48b4a3fd42de9edb9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 65
+      value: 65.11
       objectReference: {fileID: 0}
     - target: {fileID: 1613468245219900610, guid: 9236188609cddec48b4a3fd42de9edb9,
         type: 3}
@@ -2260,6 +2260,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KillerWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380677951628797763, guid: 9236188609cddec48b4a3fd42de9edb9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.047
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380677951628797763, guid: 9236188609cddec48b4a3fd42de9edb9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.026
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
