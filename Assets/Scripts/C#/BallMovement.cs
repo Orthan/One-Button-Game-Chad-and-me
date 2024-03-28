@@ -21,11 +21,10 @@ public class BallMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //if (other.CompareTag("Trap"))
-        //{
-        //    Destroy(gameObject);
-        //    SceneManager.LoadScene("Game Over");
-        //}
+        if (other.CompareTag("Trap"))
+        {
+            _speed = 0;
+        }
 
         //if (other.CompareTag("Trap2"))
         //{
