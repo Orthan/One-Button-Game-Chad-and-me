@@ -1122,6 +1122,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 323970316}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &380282827 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1224735461990019904, guid: e4d64920ef0839e41b4a1861f79e451c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1886848907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &416884964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3618,8 +3624,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Death","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.ParticleSystem,
+      UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 380282827}
 --- !u!4 &1507755041
 Transform:
   m_ObjectHideFlags: 0
@@ -4673,6 +4681,11 @@ PrefabInstance:
       propertyPath: m_VolumeTrigger
       value: 
       objectReference: {fileID: 1752903676}
+    - target: {fileID: 9014209048189354406, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
+      propertyPath: m_Name
+      value: Death
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
