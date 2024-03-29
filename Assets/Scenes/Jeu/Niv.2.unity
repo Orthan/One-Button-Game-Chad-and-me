@@ -200,41 +200,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TravelerBall
       objectReference: {fileID: 0}
-    - target: {fileID: 4682364185205073041, guid: e4d64920ef0839e41b4a1861f79e451c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.193
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682364185205073041, guid: e4d64920ef0839e41b4a1861f79e451c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682364185205073041, guid: e4d64920ef0839e41b4a1861f79e451c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7760701
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682364185205073041, guid: e4d64920ef0839e41b4a1861f79e451c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682364185205073041, guid: e4d64920ef0839e41b4a1861f79e451c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.6306467
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682364185205073041, guid: e4d64920ef0839e41b4a1861f79e451c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682364185205073041, guid: e4d64920ef0839e41b4a1861f79e451c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 78.196
-      objectReference: {fileID: 0}
     - target: {fileID: 5314678213121643388, guid: e4d64920ef0839e41b4a1861f79e451c,
         type: 3}
       propertyPath: m_RootOrder
