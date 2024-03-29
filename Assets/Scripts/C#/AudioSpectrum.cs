@@ -11,7 +11,11 @@ public class AudioSpectrum : MonoBehaviour
     {
         AudioListener.GetSpectrumData(m_audioSpectrum, 0, FFTWindow.Hamming);
 
-        if (m_audioSpectrum != null && m_audioSpectrum.Length > 0) ;
+        if (m_audioSpectrum != null && m_audioSpectrum.Length > 0) 
+        {
+        
+        
+        };
     }
 
     private void Start()
