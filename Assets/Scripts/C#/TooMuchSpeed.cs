@@ -26,4 +26,8 @@ public class TooMuchSpeed : MonoBehaviour
         // Déplacer la balle dans la direction de sa rotation
         transform.Translate(Vector3.forward * currentSpeed * Time.deltaTime);
     }
+    public float GetCurrentSpeed()
+    {
+        return currentSpeed; // Retourne la vitesse actuelle de la balle
+    }
 }

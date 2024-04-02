@@ -5021,6 +5021,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5912744088729602690, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
+      propertyPath: fovIncreaseRate
+      value: 0.00001
+      objectReference: {fileID: 0}
     - target: {fileID: 5917613072310398722, guid: e4d64920ef0839e41b4a1861f79e451c,
         type: 3}
       propertyPath: m_Parameters.widthMultiplier
@@ -5069,7 +5074,7 @@ PrefabInstance:
     - target: {fileID: 6279178039475443114, guid: e4d64920ef0839e41b4a1861f79e451c,
         type: 3}
       propertyPath: field of view
-      value: 65
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6279178039475443114, guid: e4d64920ef0839e41b4a1861f79e451c,
         type: 3}
@@ -5098,6 +5103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 278050298626946682, guid: e4d64920ef0839e41b4a1861f79e451c, type: 3}
+    - {fileID: 5773198705953900563, guid: e4d64920ef0839e41b4a1861f79e451c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
