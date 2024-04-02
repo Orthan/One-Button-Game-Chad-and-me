@@ -4916,6 +4916,11 @@ PrefabInstance:
       propertyPath: _speed
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 278050298626946682, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 901645437422463389, guid: e4d64920ef0839e41b4a1861f79e451c,
         type: 3}
       propertyPath: m_IsActive
@@ -4924,6 +4929,21 @@ PrefabInstance:
     - target: {fileID: 1903458091063986347, guid: e4d64920ef0839e41b4a1861f79e451c,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112899686794571716, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112899686794571716, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
+      propertyPath: initialSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2112899686794571716, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
+      propertyPath: accelerationRate
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4066651433296654079, guid: e4d64920ef0839e41b4a1861f79e451c,
@@ -5033,6 +5053,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6279178039475443114, guid: e4d64920ef0839e41b4a1861f79e451c,
         type: 3}
+      propertyPath: field of view
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6279178039475443114, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
       propertyPath: m_BackGroundColor.b
       value: 0.4528302
       objectReference: {fileID: 0}
@@ -5056,7 +5081,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Death
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 278050298626946682, guid: e4d64920ef0839e41b4a1861f79e451c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
