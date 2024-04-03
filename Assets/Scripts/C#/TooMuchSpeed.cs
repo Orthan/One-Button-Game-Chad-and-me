@@ -30,4 +30,13 @@ public class TooMuchSpeed : MonoBehaviour
     {
         return currentSpeed; // Retourne la vitesse actuelle de la balle
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Trap")
+        {
+            currentSpeed = 0;
+            accelerationRate = 0;
+        }
+    }
 }
