@@ -223,6 +223,22 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ReloadScene","value":{"$content":"Niv.2","$type":"System.String"},"typeHandle":{"Identification":"System.String,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 3710230277953066117, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3710230277953066117, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3710230277953066117, guid: e4d64920ef0839e41b4a1861f79e451c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d5611907c31d8146adbbd134009890f,
+        type: 2}
     - target: {fileID: 4066651433296654079, guid: e4d64920ef0839e41b4a1861f79e451c,
         type: 3}
       propertyPath: m_Name
